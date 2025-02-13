@@ -1,0 +1,43 @@
+
+body  {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/restaurant.png");
+    background-color: teal;
+  }
+
+.center-content {
+    max-width: 800px;
+    margin: 24px auto;
+    background: lightcyan;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar {
+    width: 180px; 
+    background: lightcyan; 
+    padding: 15px;
+    position: absolute; 
+    top: 100px; 
+    right: 20px; 
+    border-radius: 8px; 
+    text-align: center; 
+}
+
+.sidebar img {
+    width: 40px;
+    height: auto; 
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+main: :after {
+    content: "";
+    display: both; 
+    clear: block; 
+}
