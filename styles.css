@@ -1,3 +1,27 @@
+header {
+    background: lightcyan;
+    width: 100%; 
+}
+
+.header-container {
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;  
+    width: 60%; 
+    margin: auto; 
+}
+
+.name-box {
+    background: darkcyan;
+    padding: 20px 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
 
 body  {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/restaurant.png");
@@ -9,7 +33,7 @@ body  {
     margin: 24px auto;
     background: lightcyan;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .sidebar {
@@ -21,23 +45,37 @@ body  {
     right: 20px; 
     border-radius: 8px; 
     text-align: center; 
+    margin-top: 50px;
+}
+
+.sidebar a {
+    display: inline-block; 
+    text-decoration: none; 
+    width: 40px;
+    height: 40px;
 }
 
 .sidebar img {
     width: 40px;
-    height: auto; 
+    height: 40px; 
     margin: 15px 0;
 }
 
+.headshot {
+    float: left;
+    width: 200px;
+    height: auto;
+    image-rendering: high-quality;
+    margin-right: 20px;
+}
 
+p {
+    border: 12px transparent;
+    margin: 20 px;
+}
 
-
-
-
-
-
-main: :after {
-    content: "";
-    display: both; 
-    clear: block; 
+footer {
+    background:lightcyan;
+    padding: 10px;
+    text-align: center;
 }
