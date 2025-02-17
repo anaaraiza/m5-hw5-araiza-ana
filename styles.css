@@ -1,26 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 header {
     background: lightcyan;
-    width: 100%; 
+    padding: 40px 0 0 0;
+    max-width: 900px;
+    margin: 0 auto; 
+    border-bottom: 3px darkcyan solid;
+    position: relative;
 }
 
 .header-container {
-    display: flex;  
-    justify-content: space-between; 
-    align-items: center;  
-    width: 60%; 
-    margin: auto; 
-}
-
-.name-box {
-    background: darkcyan;
-    padding: 20px 30px;
-    display: flex;
-    align-items: flex-end;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 nav {
-    display: flex;
-    gap: 20px;
+    text-align: right;
+    gap: 50px;
+    margin-right: 29px;
 }
 
 body  {
@@ -28,19 +29,18 @@ body  {
     background-color: teal;
   }
 
-.center-content {
-    max-width: 800px;
+  .center-content {
+    max-width: 860px;
     margin: 24px auto;
     background: lightcyan;
     padding: 20px;
-    border-radius: 10px;
 }
 
 .sidebar {
     width: 180px; 
     background: lightcyan; 
     padding: 15px;
-    position: absolute; 
+    position: fixed; 
     top: 100px; 
     right: 20px; 
     border-radius: 8px; 
@@ -65,17 +65,36 @@ body  {
     float: left;
     width: 200px;
     height: auto;
-    image-rendering: high-quality;
     margin-right: 20px;
+}
+
+.about-me {
+    margin: 20px 0;
+    border-bottom: darkcyan 3px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 p {
     border: 12px transparent;
     margin: 20 px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif
 }
 
 footer {
     background:lightcyan;
     padding: 10px;
     text-align: center;
+}
+h1 {
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 20px auto 0px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
 }
